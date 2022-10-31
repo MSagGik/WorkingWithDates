@@ -11,6 +11,7 @@ public class WorkingWithDates {
         LocalDate jackBirthday = LocalDate.parse("30.10.2005", DateTimeFormatter.ofPattern("dd.MM.yyyy"));
 
         // ВЫВОД ДАТ:
+        
         // Tom
         System.out.println(tomBirthday); // 2001-01-30
         // форматирование даты
