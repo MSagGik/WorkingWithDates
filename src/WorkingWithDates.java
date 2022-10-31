@@ -12,12 +12,12 @@ public class WorkingWithDates {
 
         // ВЫВОД ДАТ:
         
-        // Tom
+        // Том
         System.out.println(tomBirthday); // 2001-01-30
         // форматирование даты
         System.out.println(tomBirthday.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"))); // 30.01.2001
 
-        // Katy
+        // Кэти
         System.out.println(katyBirthday); // 2003-05-30
         // форматирование даты
         System.out.println(katyBirthday.getDayOfMonth() + " " + katyBirthday.getDayOfWeek() + " " + katyBirthday.getMonthValue());
@@ -26,7 +26,7 @@ public class WorkingWithDates {
         // 30 FRIDAY MAY
         System.out.println(katyBirthday.format(DateTimeFormatter.ofPattern("dd LLL EE"))); // 30 май пт
 
-        // Jack
+        // Джек
         System.out.println(jackBirthday); // 2005-10-30
 
         // СРАВНЕНИЕ ДАТ:
